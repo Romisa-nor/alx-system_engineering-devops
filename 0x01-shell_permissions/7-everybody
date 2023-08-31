@@ -1,2 +1,2 @@
 #!/bin/basch
-chmod a+x hello
+chmod u+x,o+x,g+x hello
