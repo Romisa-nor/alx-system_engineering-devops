@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "$1"  | grep -f -v "$m" "$2"  | sort -u
+perl -lne 'print if $. % 2 == 1'
