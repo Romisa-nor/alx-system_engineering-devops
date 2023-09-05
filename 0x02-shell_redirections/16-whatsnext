@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -A 3 "root " /ect/passwd
+find . -type d | grep -v '^\.$' | grep -v '^\.\.$' | wc -l | grep -A3 root /etc/passwd
